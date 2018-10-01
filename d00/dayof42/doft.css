@@ -1,0 +1,92 @@
+body{
+	background-color: #505050;
+}
+
+.mainContent{
+	display: block;
+	margin: auto;
+	width: 1500px;
+}
+
+.tray{
+	background-color: #909090;
+	border-radius: 15px;
+	padding: 15px;
+	box-shadow: 10px 10px 5px;
+	margin: 10px;
+}
+
+#boxLeft{
+	display: block;
+	float: left;
+	width: 150px;
+	margin-left: 75px;
+	height: 400px;
+}
+
+#boxRight{
+	display: block;
+	float: right;
+	width: 150px;
+	margin-right: 75px;
+	height: 400px;
+}
+
+#boxCenter{	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	width: 900px;
+}
+
+#close{
+	width: 25px;
+	height: 25px;
+}
+
+#reload{
+	width: 25px;
+	height: 25px;
+}
+
+#inspect{
+}
+
+#header{
+	height: 150px;
+}
+
+#title{
+	height: 150px;	
+}
+
+#boxCenter img{
+	width: 100%;
+}
+
+#boxLeft img{
+	display: block;
+	width: 70px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#boxRight img{
+	display: block;
+	width: 70px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#bricks{
+	display: block;
+	width: 140px;
+	height: 70px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-image: url("resources/brick.jpg");
+}
