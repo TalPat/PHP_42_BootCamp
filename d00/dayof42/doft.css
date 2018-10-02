@@ -16,6 +16,37 @@ body{
 	margin: 10px;
 }
 
+.greentray{
+	background-color: #A8FC96;
+	border-radius: 15px;
+	padding: 15px;
+	box-shadow: 10px 10px 5px;
+	margin: 10px;
+	position: absolute;
+	top: 650px;
+	left: 100px;
+	width: 400px;
+	height: 100px;
+}
+
+#hmm{
+	font-size: 30px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button{
+	margin: 10px;
+}
+
+p{
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+	width: 300px;
+}
+
 #boxLeft{
 	display: block;
 	float: left;
@@ -41,19 +72,29 @@ body{
 }
 
 #close{
+	position: absolute;
 	width: 25px;
 	height: 25px;
+	bottom: 10px;
+	right: 10px;
 }
 
 #reload{
+	position: absolute;
+	top: 10px;
+	right: 10px;
 	width: 25px;
 	height: 25px;
 }
 
 #inspect{
+	position: absolute;
+	bottom: -20px;
+	right: 45px;
 }
 
 #header{
+	position: relative;
 	height: 150px;
 }
 
@@ -89,4 +130,8 @@ body{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	background-image: url("resources/brick.jpg");
+}
+
+#bleh{
+	text-shadow: 2px 2px 2px #ff0000;
 }

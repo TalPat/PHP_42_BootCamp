@@ -8,10 +8,15 @@
 <body>
 	<div class="mainContent">
 		<div class="tray" id="header">
-			<img src="resources/reload.png" alt="Start from the beginning" id="reload">
+			<a href="https://www.disney.com">
+				<img src="resources/reload.png" alt="Start from the beginning" id="reload">
+			</a>
+			<a href="https://www.relaishateaux.com">
+				<img src="resources/close.gif" alt="Disconnect" id="close">
+			</a>
 			<img src="resources/loupe.png" alt="Inspect" id="inspect">
 			<img src="resources/day_of_the_42.png" alt="Day of the 42" id="title">
-			<img src="resources/close.gif" alt="Disconnect" id="close">
+			
 		</div>
 		<div class="tray" id="boxLeft">
 			<img src="resources/arrow.png" alt="Advance">
@@ -26,8 +31,19 @@
 			<div id="bricks"></div>
 		</div>
 		<div class="tray" id="boxCenter">
-			<img src="resources/cluster.jpg" alt="cluster">
+			<img src="resources/cluster.jpg" alt="cluster" usemap="mymap">
+			<map name="mymap">
+					<area shape="rect" coords="275,275,450,500" href="https://www.ikea.com" alt="chair">
+					<area shape="rect" coords="700,275,900,450" href="https://www.apple.com" alt="screen">
+				  </map>
 		</div>
+	</div>
+	<div class="greentray">
+		<p>Vous <span id="hmm">entrez</span> alors dans une grande piece remplie d'<span id="bleh">ordinateurs</span>...</p>
+		<i>- Bonjour, vous étes nouveau ici ?</i>
+		<form>
+			<input type="text"><button type="button">Respondre</button>
+		</form>
 	</div>
 </body>
 </html>
